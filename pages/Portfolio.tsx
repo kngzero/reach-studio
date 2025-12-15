@@ -75,8 +75,6 @@ const Portfolio: React.FC<Props> = ({ content, settings }) => {
                     title={item.title}
                   ></iframe>
                 </div>
-                <div className="text-xs text-brand-accent font-bold uppercase tracking-widest mb-1">{item.category}</div>
-                <h3 className="text-lg font-bold uppercase text-brand-dark leading-tight">{item.title}</h3>
               </div>
             ))}
           </div>
